@@ -189,7 +189,7 @@ Each model produces a probability of a downside event.
 The final ensemble probability is calculated as:
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?P_{\mathrm{ensemble}}=\frac{P_{\mathrm{MLP}}+P_{\mathrm{XGBoost}}+P_{\mathrm{CatBoost}}}{3}" alt="Ensemble probability equation">
+  <img src="https://latex.codecogs.com/svg.image?\color{white}P_{\mathrm{ensemble}}=\frac{P_{\mathrm{MLP}}+P_{\mathrm{XGBoost}}+P_{\mathrm{CatBoost}}}{3}" alt="Ensemble probability equation">
 </p>
 
 A predicted probability of at least 0.5 is classified as a downside-risk event.
